@@ -1,4 +1,4 @@
-package com.arrademo;
+package com.arraydemo;
 
 public class ArrayDemo2 {
 
@@ -10,6 +10,8 @@ public class ArrayDemo2 {
 //		nameOfStudent[1] = "john";
 		
 		String nameOfStudent[] = {"Aman", "John", "Jamie", "Abebe", "kebede", "kiya", "bob","liya","Isaac", "selam"}; // index = 0 - 9
+		
+		System.out.println(nameOfStudent.length);
 		
 		for(String elt: nameOfStudent) {
 			System.out.print(elt + "  ");

@@ -1,15 +1,15 @@
-package com.arrademo;
+package com.arraydemo;
 
 public class ArrayDemo4 {
 
 	public static void main(String[] args) {
 
-		int[] studentMarks = { 67, 78, 80, 95, 55, 77 };
+		double[] studentMarks = { 67.9, 78, 80, 95, 55, 77 };
 		double returnVal = GradeCalulator(studentMarks);
 		System.out.println("Average mark of student: " + returnVal);
 	}
 	
-	public static double GradeCalulator(int[] marks) {
+	public static double GradeCalulator(double[] marks) {
 		int total_mark = 0;
 		double avg_mark;
 
@@ -17,7 +17,7 @@ public class ArrayDemo4 {
 //			total_mark = total_mark + marks[i];
 //		}
 
-		for (int elt : marks) {
+		for (double elt : marks) {
 			total_mark += elt;
 		}
 
