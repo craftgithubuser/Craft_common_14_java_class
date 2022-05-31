@@ -8,6 +8,7 @@ public class IfDemo {
 		// TODO Auto-generated method stub
 		
 		Scanner in = new Scanner(System.in);
+		
 		System.out.println("Enter your Mark: ");
 		double mark = in.nextDouble();
 		
